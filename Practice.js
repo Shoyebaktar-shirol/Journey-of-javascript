@@ -134,18 +134,85 @@
 // console.log(fruit2);
 // console.log(fruit2.splice(1, 2));
 
-let company = ["Bloomberg", "Microsoft", "Google", "Apple", "Netflix", "Amazon"];
+// let company = ["Bloomberg", "Microsoft", "Google", "Apple", "Netflix", "Amazon"];
 
-// Remove the first element
-company.shift();
+// // Remove the first element
+// company.shift();
 
-// Replace "Apple" with "Uber" at index 2 position
-company.splice(2, 1, "Uber");
+// // Replace "Apple" with "Uber" at index 2 position
+// company.splice(2, 1, "Uber");
 
-console.log(company);
+// console.log(company);
 
-// Add "Apple" to the end of the array
-company.push("Apple");
-console.log(company);
-company.pop("Apple")
-console.log(company);
+// // Add "Apple" to the end of the array
+// company.push("Apple");
+// console.log(company);
+// company.pop("Apple")
+// console.log(company);
+
+
+
+//FUNCTIONS OR METHODS IN JAVASCRIPT
+// function myfunction()
+// {
+//     console.log("THIS IS MY FRIST FUNCTION IN JAVASCRIPT");
+// }
+// myfunction();//calling function
+
+// function myfunction2(hello)//parameter passsed
+// {
+//     console.log(hello);
+// }
+// myfunction2("HELLO THIS MY ANOTHER FUNCTION");//parameter or arguments value passed
+
+
+
+
+// // sum of 2 numbers
+// function sum(a, y) {
+//     console.log(a + y);
+// }
+
+// sum(100, 100);
+
+
+// //arrow functions => in Javascript
+// function sum(a, b) {
+//     return a + b;
+// }
+
+// const arrowsum = (a, b) => {
+//     return a + b;
+// };
+
+// function mul(a, b) {
+//     return a * b;
+// }
+
+// const arrowmul = (a, b) => {
+//     return a * b;
+// };
+// console.log(arrowsum(5, 6));
+// console.log(arrowmul(4, 8));
+
+
+// Function to count vowels in a given string
+function countvowels(str) {
+    // Initialize a counter to keep track of the number of vowels
+    let count = 0;
+
+    // Iterate through each character in the input strin
+    for (const char of str) {
+        // Check if the current character is a vowel (case-sensitive)
+        if (char === "a" || char === "e" || char === "i" || char === "O" || char === "u") {
+            // If it's a vowel, increment the counter
+            count++;
+        }
+    }
+
+    // Log the final count o vowels in the string
+    console.log(count);
+}
+
+// Example usage of the countvowls functon with a comment
+countvowels("I AM SHOYEBAKTAR SHIROL FROM KLE BCA GOKAK"); // Output: 15
