@@ -17,6 +17,84 @@
 // console.log(isTrue);
 
 
+
+
+
+// Arithmetic Operators
+let num1 = 10;
+let num2 = 5;
+
+console.log("Arithmetic Operators:");
+console.log("Addition:", num1 + num2);
+console.log("Subtraction:", num1 - num2);
+console.log("Multiplication:", num1 * num2);
+console.log("Division:", num1 / num2);
+console.log("Modulus:", num1 % num2);
+console.log("Increment:", ++num1);
+console.log("Decrement:", --num2);
+
+// Comparison Operators
+let x = 5;
+let y = "5";
+
+console.log("\nComparison Operators:");
+console.log("Equal (==):", x == y);
+console.log("Strict Equal (===):", x === y);
+console.log("Not Equal (!=):", x != y);
+console.log("Strict Not Equal (!==):", x !== y);
+console.log("Greater Than (>):", x > num2);
+console.log("Less Than (<):", x < num2);
+console.log("Greater Than or Equal (>=):", x >= num2);
+console.log("Less Than or Equal (<=):", x <= num2);
+
+// Logical Operators
+let isTrue = true;
+let isFalse = false;
+
+console.log("\nLogical Operators:");
+console.log("AND (&&):", isTrue && isFalse);
+console.log("OR (||):", isTrue || isFalse);
+console.log("NOT (!):", !isTrue);
+
+// Assignment Operators
+let a = 3;
+
+console.log("\nAssignment Operators:");
+a += 2;
+console.log("+=:", a);
+a -= 2;
+console.log("-=:", a);
+a *= 3;
+console.log("*=:", a);
+a /= 2;
+console.log("/=:", a);
+a %= 2;
+console.log("%=:", a);
+
+// Bitwise Operators
+let num3 = 5;
+let num4 = 3;
+
+console.log("\nBitwise Operators:");
+console.log("AND (&):", num3 & num4);
+console.log("OR (|):", num3 | num4);
+console.log("XOR (^):", num3 ^ num4);
+console.log("Left Shift (<<):", num3 << 1);
+console.log("Right Shift (>>):", num3 >> 1);
+
+// Ternary Operator
+let age = 20;
+let eligibility = age >= 18 ? "Eligible" : "Not Eligible";
+
+console.log("\nTernary Operator:");
+console.log("Eligibility:", eligibility);
+
+
+
+
+
+
+
 // // Conditional statement using if-else
 // let x = 10;
 
@@ -25,6 +103,18 @@
 // } else {
 //     console.log("x is not greater than 5");
 // }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -197,22 +287,22 @@
 
 
 // Function to count vowels in a given string
-function countvowels(str) {
-    // Initialize a counter to keep track of the number of vowels
-    let count = 0;
+// function countvowels(str) {
+//     // Initialize a counter to keep track of the number of vowels
+//     let count = 0;
 
-    // Iterate through each character in the input strin
-    for (const char of str) {
-        // Check if the current character is a vowel (case-sensitive)
-        if (char === "a" || char === "e" || char === "i" || char === "O" || char === "u") {
-            // If it's a vowel, increment the counter
-            count++;
-        }
-    }
+//     // Iterate through each character in the input strin
+//     for (const char of str) {
+//         // Check if the current character is a vowel (case-sensitive)
+//         if (char === "a" || char === "e" || char === "i" || char === "O" || char === "u") {
+//             // If it's a vowel, increment the counter
+//             count++;
+//         }
+//     }
 
-    // Log the final count o vowels in the string
-    console.log(count);
-}
+//     // Log the final count o vowels in the string
+//     console.log(count);
+// }
 
-// Example usage of the countvowls functon with a comment
-countvowels("I AM SHOYEBAKTAR SHIROL FROM KLE BCA GOKAK"); // Output: 15
+// // Example usage of the countvowls functon with a comment
+// countvowels("I AM SHOYEBAKTAR SHIROL FROM KLE BCA GOKAK"); // Output: 15
