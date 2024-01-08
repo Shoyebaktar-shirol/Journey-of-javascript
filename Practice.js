@@ -315,24 +315,35 @@
 
 
 
-// Prompt the user for the first nuber
-let num1 = prompt("Enter the first number:");
+// let num1 = prompt("Enter the first number:");
+// let num2 = prompt("Enter the second number:");
 
-// Prompt the user for the second number
-let num2 = prompt("Enter the second number:");
+// num1 = parseInt(num1);
+// num2 = parseInt(num2);
 
-// Convert the inpt to numbers
-num1 = parseInt(num1);
-num2 = parseInt(num2);
+// if ((num1) && (num2)) {
+   
+//     let sum = num1 + num2;
 
-// Check if the input is valid or no
-if (!isNaN(num1) && !isNaN(num2)) {
-    // Calculate the sum
-    let sum = num1 + num2;
-
-    // Display the result
-    alert("The sum is: " + sum);
-} else {
+//     alert("The sum is: " + sum);
+// } else {
     
-    alert("Invalid input. Please enter valid numbers.");
-}
+//     alert("Invalid inpu.");
+// }
+
+
+
+let numbers = [1, 2, 3, 4, 5];
+
+let doubledNumbers = numbers.map((num) => num * 2);
+console.log(doubledNumbers);
+
+let evenNumbers = numbers.filter((num) => num % 2 === 0);
+console.log(evenNumbers);
+
+let sum = numbers.reduce((acc, num) => acc + num, 0);
+console.log(sum);
+
+console.log("Logging each element:");
+numbers.forEach((num) => console.log(num));
+
