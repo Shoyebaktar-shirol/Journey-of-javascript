@@ -333,17 +333,39 @@
 
 
 
-let numbers = [1, 2, 3, 4, 5];
+// let numbers = [1, 2, 3, 4, 5];
 
-let doubledNumbers = numbers.map((num) => num * 2);
-console.log(doubledNumbers);
+// let doubledNumbers = numbers.map((num) => num * 2);
+// console.log(doubledNumbers);
 
-let evenNumbers = numbers.filter((num) => num % 2 === 0);
-console.log(evenNumbers);
+// let evenNumbers = numbers.filter((num) => num % 2 === 0);
+// console.log(evenNumbers);
 
-let sum = numbers.reduce((acc, num) => acc + num, 0);
-console.log(sum);
+// let sum = numbers.reduce((acc, num) => acc + num, 0);
+// console.log(sum);
 
-console.log("Logging each element:");
-numbers.forEach((num) => console.log(num));
+// console.log("Logging each element:");
+// numbers.forEach((num) => console.log(num));
+// console.log("HELLO JAVASCRIPT");
 
+
+
+
+
+
+
+  
+    // Get the heading element by its ID
+    var myHeading = document.getElementById('myHeading');
+
+    // Get the button element by its ID
+    var changeTextButton = document.getElementById('changeTextButton');
+
+    // Function to change the text of the heading
+    function changeText() {
+      myHeading.textContent = 'Text changed!';
+    }
+
+    // Attach an event listener to the button
+    changeTextButton.addEventListener('click', changeText);
+  
