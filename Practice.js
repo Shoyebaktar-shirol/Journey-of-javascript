@@ -348,24 +348,46 @@
 // numbers.forEach((num) => console.log(num));
 // console.log("HELLO JAVASCRIPT");
 
-
-
-
-
-
-
   
-    // Get the heading element by its ID
-    var myHeading = document.getElementById('myHeading');
+    // // Get the heading element by its ID
+    // var myHeading = document.getElementById('myHeading');
 
-    // Get the button element by its ID
-    var changeTextButton = document.getElementById('changeTextButton');
+    // // Get the button element by its ID
+    // var changeTextButton = document.getElementById('changeTextButton');
 
-    // Function to change the text of the heading
-    function changeText() {
-      myHeading.textContent = 'Text changed!';
+    // // Function to change the text of the heading
+    // function changeText() {
+    //   myHeading.textContent = 'Text changed!';
+    // }
+
+    // // Attach an event listener to the button
+    // changeTextButton.addEventListener('click', changeText);
+  
+
+
+//Selection sort 
+    function selectionSort(arr) {
+    let n = arr.length;
+
+    for (let i = 0; i < n - 1; i++) {
+        let minIndex = i;
+
+        for (let j = i + 1; j < n; j++) {
+            if (arr[j] < arr[minIndex]) {
+                minIndex = j;
+            }
+        }
+
+        if (minIndex !== i) {
+            let temp = arr[i];
+            arr[i] = arr[minIndex];
+            arr[minIndex] = temp;
+        }
     }
 
-    // Attach an event listener to the button
-    changeTextButton.addEventListener('click', changeText);
-  
+    return arr;
+}
+
+let unsortedArray = [64, 25, 12, 22, 11];
+let sortedArray = selectionSort(unsortedArray);
+console.log("Sorted array:", sortedArray);
