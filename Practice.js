@@ -418,20 +418,82 @@
 
 // Create an object called 'person' with properties 'name' and 'age'.
 // Set the 'name' property to "Alice" and the 'age' property to 25.
-let person = {
-    Name: "SHOYEBAKTAR SHIROL",
-    Age: 22,
-    College: "KLE SOCIETYS COLLEGE OF BCA GOKAK",
-    Course: "BACHELOR OF COMPUTER APPLLICATION",
-    Place: "GOKAK"
+// let person = {
+//     Name: "SHOYEBAKTAR SHIROL",
+//     Age: 22,
+//     College: "KLE SOCIETYS COLLEGE OF BCA GOKAK",
+//     Course: "BACHELOR OF COMPUTER APPLLICATION",
+//     Place: "GOKAK"
     
+// };
+
+// for (let key in person) {
+//     console.log("Keys in the Person:", key);
+// }
+// for (let key in person) {
+//     console.log("Values in the Person:", person[key]);
+// }
+
+
+// Write a function called 'isPositive' that takes a number as a parameter and returns true if the number is positive, false otherwise.
+// Use the function to determine if the numbers 5, -3, and 0 are positive.
+
+// function isPossitive(number)
+// {
+//     return number > 0;
+// }
+
+// console.log("isPossitive", (5));;
+// console.log("isPossitive", (-3));;
+// console.log("isPossitive", (0));;
+
+
+
+//calculating the sum of num and lenght of tha numbers in array
+// let numbers = [1, 2, 3, 4, 5];
+// let sum = 0;
+
+// for (let i = 0; i < numbers.length; i++) {
+  
+// }
+
+// console.log(numbers.length);
+
+
+// Create an object called 'student' with properties 'name', 'age', and 'grade'.
+// Set the values to "Emma", 18, and 85 respectively.
+// Write an if-else statement to log "Pass" if the grade is 70 or above, and "Fail" otherwise.
+// let student = {
+//     Name: "EMMA",
+//     Age: 18,
+//     grade: "85"
+// }
+// if (grade => 70)
+// {
+//     console.log("STUDENT IS PASS");
+// }
+// else {
+//     console.log("STUDENT IS FAIL");
+// }
+
+
+
+// Create an object called 'user' with properties 'name', 'email', and 'isAdmin'.
+// Write a function called 'isAdminCheck' that takes a user object as a parameter and returns true if the user is an admin, false otherwise.
+// Test the function with the 'user' object.
+let user = {
+    name: "Shoyebaktar",
+    email: "shoyebaktarshirol@gmail.com",
+    isAdmin: false
 };
 
-for (let key in person) {
-    console.log("Keys in the Person:", key);
-}
-for (let key in person) {
-    console.log("Values in the Person:", person[key]);
+function isAdminCheck() {
+    if (user.isAdmin === false) {
+        console.log("USER IS NOT A ADMIN");
+    } else {
+        console.log("USER IS  AN ADMIN");
+    }
 }
 
+isAdminCheck();
 
