@@ -365,29 +365,73 @@
   
 
 
-//Selection sort 
-    function selectionSort(arr) {
-    let n = arr.length;
+//Selection sort
+//     function selectionSort(arr) {
+//     let n = arr.length;
 
-    for (let i = 0; i < n - 1; i++) {
-        let minIndex = i;
+//     for (let i = 0; i < n - 1; i++) {
+//         let minIndex = i;
 
-        for (let j = i + 1; j < n; j++) {
-            if (arr[j] < arr[minIndex]) {
-                minIndex = j;
-            }
-        }
+//         for (let j = i + 1; j < n; j++) {
+//             if (arr[j] < arr[minIndex]) {
+//                 minIndex = j;
+//             }
+//         }
 
-        if (minIndex !== i) {
-            let temp = arr[i];
-            arr[i] = arr[minIndex];
-            arr[minIndex] = temp;
-        }
-    }
+//         if (minIndex !== i) {
+//             let temp = arr[i];
+//             arr[i] = arr[minIndex];
+//             arr[minIndex] = temp;
+//         }
+//     }
 
-    return arr;
+//     return arr;
+// }
+
+// let unsortedArray = [64, 25, 12, 22, 11];
+// let sortedArray = selectionSort(unsortedArray);
+// console.log("Sorted array:", sortedArray);
+
+
+// JAVASCRIPT PRACTICE QUESTIONS
+// Declare a variable 'temperature' and assign a numerical value to it.
+// Write an if statement that logs "It's hot!" if the temperature is greater than or equal to 30, and "It's cool." otherwise.
+
+// var temperature = 25;
+// if (temperature >= 30) {
+//     console.log("Temperature is Hot");
+// } else {
+//     console.log("Temperature is Cold");
+// }
+// console.log(temperature);
+
+
+
+
+// Use a for loop to log the numbers from 1 to 5 in the console.
+
+// for (let i = 1; i <= 5; i++)
+// {
+//     console.log(i);
+// }
+
+
+// Create an object called 'person' with properties 'name' and 'age'.
+// Set the 'name' property to "Alice" and the 'age' property to 25.
+let person = {
+    Name: "SHOYEBAKTAR SHIROL",
+    Age: 22,
+    College: "KLE SOCIETYS COLLEGE OF BCA GOKAK",
+    Course: "BACHELOR OF COMPUTER APPLLICATION",
+    Place: "GOKAK"
+    
+};
+
+for (let key in person) {
+    console.log("Keys in the Person:", key);
+}
+for (let key in person) {
+    console.log("Values in the Person:", person[key]);
 }
 
-let unsortedArray = [64, 25, 12, 22, 11];
-let sortedArray = selectionSort(unsortedArray);
-console.log("Sorted array:", sortedArray);
+
