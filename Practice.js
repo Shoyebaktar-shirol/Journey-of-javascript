@@ -463,37 +463,37 @@
 // Create an object called 'student' with properties 'name', 'age', and 'grade'.
 // Set the values to "Emma", 18, and 85 respectively.
 // Write an if-else statement to log "Pass" if the grade is 70 or above, and "Fail" otherwise.
-// let student = {
-//     Name: "EMMA",
-//     Age: 18,
-//     grade: "85"
-// }
-// if (grade => 70)
-// {
-//     console.log("STUDENT IS PASS");
-// }
-// else {
-//     console.log("STUDENT IS FAIL");
-// }
+ let student = {
+     Name: "Shoyebaktar Shirol",
+     Age: 21,
+     grade: "85"
+ }
+ if (grade => 70)
+ {
+     console.log("STUDENT IS PASS");
+ }
+ else {
+     console.log("STUDENT IS FAIL");
+ }
 
 
 
 // Create an object called 'user' with properties 'name', 'email', and 'isAdmin'.
 // Write a function called 'isAdminCheck' that takes a user object as a parameter and returns true if the user is an admin, false otherwise.
 // Test the function with the 'user' object.
-let user = {
-    name: "Shoyebaktar",
-    email: "shoyebaktarshirol@gmail.com",
-    isAdmin: false
-};
+// let user = {
+//     name: "Shoyebaktar",
+//     email: "shoyebaktarshirol@gmail.com",
+//     isAdmin: false
+// };
 
-function isAdminCheck() {
-    if (user.isAdmin === false) {
-        console.log("USER IS NOT A ADMIN");
-    } else {
-        console.log("USER IS  AN ADMIN");
-    }
-}
+// function isAdminCheck() {
+//     if (user.isAdmin === false) {
+//         console.log("USER IS NOT A ADMIN");
+//     } else {
+//         console.log("USER IS  AN ADMIN");
+//     }
+// }
 
-isAdminCheck();
+// isAdminCheck();
 
