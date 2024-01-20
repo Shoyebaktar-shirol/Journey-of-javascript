@@ -497,3 +497,18 @@
 
 // isAdminCheck();
 
+//   FACTORIAL IN JS
+function factorial(n) {
+  return n <= 1 ? 1 : n * factorial(n - 1);
+}
+
+const userInput = prompt("Enter a number:");
+const number = parseInt(userInput);
+
+if (isNaN(number)) {
+  console.log("Invalid input. Please enter a valid number.");
+} else {
+  const result = factorial(number);
+  console.log(`The factorial of ${number} is: ${result}`);
+}
+
