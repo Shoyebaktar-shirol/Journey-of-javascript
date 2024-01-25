@@ -8,3 +8,9 @@ h1{
      text-align: center;
      margin: 20px;
  }
+
+.heading
+ {
+    color:blue;
+    background-color: greenyellow;
+ }
