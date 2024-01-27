@@ -535,13 +535,15 @@
 //   let result = factorial(number);
 //   console.log("Factorial of", number, "is:", result);
 
+//Create a H2 heading element with text - "Hello JavaScript".Append"From apna collge Student To this text using JAVASCRIPT
+// let h2 = document.querySelector("h2");
+// console.dir(h2.innerText);
+// h2.innerText = h2.innerText + " From Apna College Student";
 
-let h2 = document.querySelector("h2");
-console.dir(h2.innerText);
-h2.innerText = h2.innerText + " From Apna College Student";
 
 
-let divs = document.querySelectorAll(".box");
-divs[0].innerText = " SHOYEBAKTAR ";
-divs[1].innerText = " SHIROL ";
-divs[2].innerText = " FROM GOKAK ";
+//Create 3 divs with common class name "box" and access the and add some Unique text to each of them
+// let divs = document.querySelectorAll(".box");
+// divs[0].innerText = " SHOYEBAKTAR ";
+// divs[1].innerText = " SHIROL ";
+// divs[2].innerText = " FROM GOKAK ";
