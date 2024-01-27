@@ -463,18 +463,18 @@
 // Create an object called 'student' with properties 'name', 'age', and 'grade'.
 // Set the values to "Emma", 18, and 85 respectively.
 // Write an if-else statement to log "Pass" if the grade is 70 or above, and "Fail" otherwise.
- let student = {
-     Name: "Shoyebaktar Shirol",
-     Age: 21,
-     grade: "85"
- }
- if (grade => 70)
- {
-     console.log("STUDENT IS PASS");
- }
- else {
-     console.log("STUDENT IS FAIL");
- }
+//  let student = {
+//      Name: "Shoyebaktar Shirol",
+//      Age: 21,
+//      grade: "85"
+//  }
+//  if (grade => 70)
+//  {
+//      console.log("STUDENT IS PASS");
+//  }
+//  else {
+//      console.log("STUDENT IS FAIL");
+//  }
 
 
 
@@ -518,28 +518,30 @@
 
 //FACTORIAL OF GOVEN NUMBER in JS
 
-function factorial(n) {
-  // Base case: factorial of 0 is 1
-  if (n === 0 || n === 1) {
-    return 1;
-  } else {
+// function factorial(n) {
+//   // Base case: factorial of 0 is 1
+//   if (n === 0 || n === 1) {
+//     return 1;
+//   } else {
  
-    return n * factorial(n - 1);
-  }
-}
+//     return n * factorial(n - 1);
+//   }
+// }
+// let userInput = prompt("Enter a number to calculate its factorial:");
+// let number = parseInt(userInput);
+// if (isNaN(number)) {
+//   console.log("Invalid input. Please enter a valid number.");
+// } else {
+//   let result = factorial(number);
+//   console.log("Factorial of", number, "is:", result);
 
 
-let userInput = prompt("Enter a number to calculate its factorial:");
+let h2 = document.querySelector("h2");
+console.dir(h2.innerText);
+h2.innerText = h2.innerText + " From Apna College Student";
 
 
-let number = parseInt(userInput);
-
-
-if (isNaN(number)) {
-  console.log("Invalid input. Please enter a valid number.");
-} else {
- 
-  let result = factorial(number);
-  console.log("Factorial of", number, "is:", result);
-}
-
+let divs = document.querySelectorAll(".box");
+divs[0].innerText = " SHOYEBAKTAR ";
+divs[1].innerText = " SHIROL ";
+divs[2].innerText = " FROM GOKAK ";
