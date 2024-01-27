@@ -516,3 +516,30 @@
 
 //DOCUMENT OBJECT MODEL
 
+//FACTORIAL OF GOVEN NUMBER in JS
+
+function factorial(n) {
+  // Base case: factorial of 0 is 1
+  if (n === 0 || n === 1) {
+    return 1;
+  } else {
+ 
+    return n * factorial(n - 1);
+  }
+}
+
+
+let userInput = prompt("Enter a number to calculate its factorial:");
+
+
+let number = parseInt(userInput);
+
+
+if (isNaN(number)) {
+  console.log("Invalid input. Please enter a valid number.");
+} else {
+ 
+  let result = factorial(number);
+  console.log("Factorial of", number, "is:", result);
+}
+
