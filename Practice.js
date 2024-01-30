@@ -552,16 +552,38 @@
 // div.style.fontSize = "30px";
 
 // DOM MANUPULATIONS
-let newBtn = document.createElement("button");
-newBtn.innerText = "CLICK HARE";
-console.log(newBtn);
+// let newBtn = document.createElement("button");
+// newBtn.innerText = "CLICK HARE";
+// console.log(newBtn);
 
-let div = document.querySelector("div");
-div.after(newBtn);
+// let div = document.querySelector("div");
+// div.after(newBtn);
 
-let newHeading = document.createElement("h1");
-newHeading.innerText = "<i>HELLO THIS IS (DOM)</i> ";
-document.querySelector("body").prepend(newHeading);
+// let newHeading = document.createElement("h1");
+// newHeading.innerText = "<i>HELLO THIS IS (DOM)</i> ";
+// document.querySelector("body").prepend(newHeading);
 
-let para = document.querySelector("p");
-para.remove();
+// let para = document.querySelector("p");
+// para.remove();
+
+
+// Practice quetion in JS
+// create a button element.give it a text "DOM", background color red and text color as white in js
+// let newBtn = document.createElement("button");
+// newBtn.innerText = "DOM";
+// newBtn.style.backgroundColor = "red";
+// newBtn.style.color = "white";
+// document.body.appendChild(newBtn);
+
+
+// let para = document.querySelector("p");
+// para.getAttribute("class");
+// para.setAttribute("class", "newClass");
+
+//EVENTS IN JAVASCRIPT
+
+let btn1 = document.querySelector("#btn1");
+
+btn1.onclick = () => {
+    console.log("btn1 Was Clicked");
+};
