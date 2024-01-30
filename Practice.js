@@ -547,3 +547,21 @@
 // divs[0].innerText = " SHOYEBAKTAR ";
 // divs[1].innerText = " SHIROL ";
 // divs[2].innerText = " FROM GOKAK ";
+// let div = document.querySelector("div");
+// console.log(div);
+// div.style.fontSize = "30px";
+
+// DOM MANUPULATIONS
+let newBtn = document.createElement("button");
+newBtn.innerText = "CLICK HARE";
+console.log(newBtn);
+
+let div = document.querySelector("div");
+div.after(newBtn);
+
+let newHeading = document.createElement("h1");
+newHeading.innerText = "<i>HELLO THIS IS (DOM)</i> ";
+document.querySelector("body").prepend(newHeading);
+
+let para = document.querySelector("p");
+para.remove();
