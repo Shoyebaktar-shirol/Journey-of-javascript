@@ -582,8 +582,27 @@
 
 //EVENTS IN JAVASCRIPT
 
-let btn1 = document.querySelector("#btn1");
+// let btn1 = document.querySelector("#btn1");
 
-btn1.onclick = () => {
-    console.log("btn1 Was Clicked");
-};
+// btn1.onclick = () => {
+//     console.log("btn1 Was Clicked");
+// };
+
+
+
+// //Classes and Objects in javaScript 
+// const student = {
+//     FullName: "Shoyebaktar Shirol",
+//     College: "Kle Societys college of bca gokak",
+//     CGPA: 8.53,
+//     printDetails: function () {
+//         console.log("College: ", this.College); //this keywor use to accessing the property
+//         console.log("CGPA: ", this.CGPA); 
+//     }
+// }
+// student.printDetails(); 
+
+
+
+let arr = ["A", "B", "C", "D"];
+console.log(arr); // Output: ["A", "B", "C", "D"]
