@@ -590,19 +590,43 @@
 
 
 
-// //Classes and Objects in javaScript 
+
 // const student = {
 //     FullName: "Shoyebaktar Shirol",
 //     College: "Kle Societys college of bca gokak",
 //     CGPA: 8.53,
 //     printDetails: function () {
 //         console.log("College: ", this.College); //this keywor use to accessing the property
-//         console.log("CGPA: ", this.CGPA); 
+//         console.log("CGPA: ", this.CGPA);
 //     }
 // }
-// student.printDetails(); 
+// student.printDetails();
 
 
 
-let arr = ["A", "B", "C", "D"];
-console.log(arr); // Output: ["A", "B", "C", "D"]
+// let arr = ["A", "B", "C", "D"];
+// console.log(arr);
+
+
+// //Classes and Objects in javaScript 
+
+class Person {
+//  Cunstructor is a specieal type of member function use to initilize onjrcts
+  constructor(name, age , Studiying , college) {
+    this.name = name;
+      this.age = age;
+      this.Studiying = Studiying;
+      this.college = college;
+
+  }
+
+ //method name is greet
+  greet() {
+    console.log(`Hello, my name is ${this.name} and I am ${this.age} years old and persuing ${this.Studiying} from ${this.college}`);
+  }
+}
+
+
+const person1 = new Person('Shoyebaktar Shirol', 21 , "Bachelor of computer application","Kle Society's College of Bca Gokak");
+
+person1.greet(); 
