@@ -608,25 +608,178 @@
 // console.log(arr);
 
 
-// //Classes and Objects in javaScript 
+// //Classes and Objects in javaScript
 
-class Person {
-//  Cunstructor is a specieal type of member function use to initilize onjrcts
-  constructor(name, age , Studiying , college) {
-    this.name = name;
-      this.age = age;
-      this.Studiying = Studiying;
-      this.college = college;
+// class Person {
+// //  Cunstructor is a specieal type of member function use to initilize onjrcts
+//   constructor(name, age , Studiying , college) {
+//     this.name = name;
+//       this.age = age;
+//       this.Studiying = Studiying;
+//       this.college = college;
 
-  }
+//   }
 
- //method name is greet
-  greet() {
-    console.log(`Hello, my name is ${this.name} and I am ${this.age} years old and persuing ${this.Studiying} from ${this.college}`);
-  }
+//  //method name is greet
+//   greet() {
+//     console.log(`Hello, my name is ${this.name} and I am ${this.age} years old and persuing ${this.Studiying} from ${this.college}`);
+//   }
+// }
+
+
+// const person1 = new Person('Shoyebaktar Shirol', 21 , "Bachelor of computer application","Kle Society's College of Bca Gokak");
+
+// person1.greet();
+
+
+
+
+// function demo() {
+//   console.log("Hello World");
+//   console.log("We are Learning js")
+// }
+// demo();
+
+// function add(num1, num2) {
+//   return num1 + num2;
+// }
+
+// console.log(add(10, 20));
+
+
+// function demo(msg) {
+//   console.log(msg);
+// }
+// demo("I love js ");
+
+
+// function add(num1, num2) {
+//   return num1 + num2;
+//   console.log(num1 + num2);
+// }
+// add(20, 99)
+ 
+
+// # ARROW FUNCTIONS
+
+// function sum(a, b)
+// {
+//   return a + b
+
+// }
+
+
+// const arroSum = (a, b) => {
+//   console.log(a+b)
+// }
+// function mul(a, b) {
+//   return a * b;
+// }
+
+
+// const arroMul = (a, b) => {
+//   console.log(a * b);
+// }
+
+
+
+// function countVowel(str) {
+//   let count = 0;
+//   for(const char of str) {
+//     if (char === "a" || char === "e" || char === "i" || char === "o" || char === "u") {
+//       count++;
+//     }
+//   }
+//   console.log(count);
+// }
+
+// countVowel("Shoyebaktar Shirol");
+
+
+
+// const countVowel = (str) => {
+//   let count = 0;
+//   for(const char of str) {
+//     if (char === "a" || char === "e" || char === "i" || char === "o" || char === "u") {
+//       count++;
+//     }
+//   }
+//   console.log(count);
+// }
+// countVowel("Sameer ")
+// let arr = [1, 2, 4, 5, 6, 7, 8, 9,10];
+// arr.forEach(function printVal(val) {
+//   console.log(val);
+// });
+
+
+// let num = [1, 2, 3, 4, 5, 6];
+// num.forEach((num) =>
+// {
+//   console.log(num * num);
+// })
+
+
+
+
+
+//map function in js
+// let arr = [1, 2, 3, 4, 5, 6,7,8,9];
+// arr.map((val) =>{
+//   console.log(val);
+// })
+
+
+
+
+
+
+//filter function in js
+// let num = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// let even = num.filter((val)=>{
+//   return val % 2 == 0;
+// })
+// console.log(even);
+
+
+//reduce method
+  
+
+
+
+  //return  the value only one
+// let marks = [99, 98, 97, 78, 89, 66];
+// let topper = marks.filter((val) => {
+//   return val >= 99;
+// })
+// console.log(topper);
+
+
+
+
+
+
+// # map returns the true or false only
+// let num = [99, 98, 97, 78, 89, 66];
+// let tpr = num.map((val) => {
+//   return val >= 99;
+// })
+// console.log(tpr);
+
+
+// let num = [99, 98, 97, 78, 89, 66];
+// let tpr = num.reduce((val) => {
+//   return val >= 99;
+// })
+// console.log(tpr);
+
+
+
+let n = prompt("Enter the number :")
+let arr = [];
+
+for (i = 1; i <= n; i++){
+  arr[i-1] = i;
+
 }
-
-
-const person1 = new Person('Shoyebaktar Shirol', 21 , "Bachelor of computer application","Kle Society's College of Bca Gokak");
-
-person1.greet(); 
+console.log(arr)
